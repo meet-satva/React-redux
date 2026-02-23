@@ -11,7 +11,7 @@ function UserList() {
     const [searchItem, setSearchItem] = useState("");
     const {Text} = AndUI.Typography;
 
-    const disPatch = useDispatch<AppDispatch>();cd
+    const disPatch = useDispatch<AppDispatch>();
 
     const debounceSearch = useDebounce(searchItem,500);
 
@@ -33,7 +33,7 @@ function UserList() {
             <AndUI.Input.Search onChange={handleChange}></AndUI.Input.Search>
 
             {loading && <AndUI.Spin></AndUI.Spin>}
-            {error && <Text type="danger">{error}</Text>}
+            {error && <AndUI.Alert title={error} type="error"></AndUI.Alert>}
 
             {!loading && users.length > 0 && (
                 <>

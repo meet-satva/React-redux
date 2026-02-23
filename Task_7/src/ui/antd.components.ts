@@ -1,4 +1,4 @@
-import { Input, Spin, Card, Row, Col, Typography } from "antd";
+import { Input, Spin, Card, Row, Col, Typography, Alert  } from "antd";
 
 export const AndUI = {
   Input,
@@ -7,4 +7,5 @@ export const AndUI = {
   Row,
   Col,
   Typography,
+  Alert ,
 };
