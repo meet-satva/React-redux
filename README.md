@@ -12,4 +12,19 @@
 
 ## Task: 4
 <img width="1323" height="642" alt="image" src="https://github.com/user-attachments/assets/fdce1a6d-e510-4e00-8dfd-c07db4133386" />
---
+<hr>
+
+## Task: 5
+-- Same as Task 1 just add one Lock button that disable +/- opeartions.
+<hr>
+
+## Task: 6
+-- Same as Task 2 just used AntD message utility to show a success notification ("Product Deleted Successfully") only after the Redux action has completed.
+<hr>
+
+## Task: 7
+-- Same as Task 3 just show an AntD <Alert /> with the error message at the top of the screen when fetch fails (rejected).
+<hr>
+
+## Task: 8
+-- Same as Task 4 just implemented Sync the selectedKeys of the AntD Menu with the current URL path so the correct menu item stays highlighted on refresh & Created a uiSlice in Redux to store a collapsed boolean. Toggle this state when the user clicks a button, causing the Sider to expand or shrink globally across all pages.
