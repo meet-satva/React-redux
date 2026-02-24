@@ -7,7 +7,7 @@ const UserList = createSlice({
         users: [],
         loading: false,
         error: null,
-    },
+    },//users/search.pendst
     reducers: {},
     extraReducers: (builder) => {
         builder.addCase(fetchUsers.pending, (state) => {
